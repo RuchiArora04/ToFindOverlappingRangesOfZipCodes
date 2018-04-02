@@ -27,3 +27,8 @@ Then the output should be = [94133,94133] [94200,94299] [94600,94699]
 
 If the input = [94133,94133] [94200,94299] [94226,94399] 
 Then the output should be = [94133,94133] [94200,94399]
+
+
+Solution
+Provide the zipcode ranges in given ZipCode.txt file.    Main.java reads ZipCode.txt file and grab the zipcodes. 
+mergeOverlappingZipCode method have the actual implementation of merging zipcodes.
